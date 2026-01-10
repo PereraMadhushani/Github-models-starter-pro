@@ -5,7 +5,6 @@ yarn-debug.log
 yarn-error.log
 
 # Environment variables
-.env
 
 # Package files
 package-lock.json
@@ -18,5 +17,5 @@ yarn.lock
 .DS_Store
 
 # IDE-specific files
-.vscode/
 .idea/
+config.bat

@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node sample-basic.js",
+    "start": "node init && node sample-basic.js",
     "basic": "node sample-basic.js",
     "multiturn": "node sample-multiturn.js",
     "stream": "node sample-stream.js",
@@ -14,7 +14,6 @@
     "reasoning": "node sample-reasoning.js",
     "creative": "node sample-creative-writing.js",
     "codereview": "node sample-code-review.js"
-
   },
   "dependencies": {
     "dotenv": "^16.0.3",
